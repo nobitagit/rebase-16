@@ -1,3 +1,6 @@
+# Vs Code specifics
+*.vsix
+
 # General
 .DS_Store
 .AppleDouble

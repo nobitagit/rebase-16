@@ -1,9 +1,9 @@
 {
   "name": "re-base16-dark",
-  "displayName": "Re-Base16 Dark (Babel)",
+  "displayName": "Re-Base16 Dark",
   "description": "Dark, minimal color theme that's easy on the eyes",
   "repository": "https://github.com/nobitagit/rebase-16",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "aurelio",
   "engines": {
     "vscode": "^1.13.0"

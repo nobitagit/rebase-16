@@ -1,23 +1,31 @@
 {
-  "name": "re-base16-dark",
-  "displayName": "Re-Base16 Dark",
-  "description": "Dark, minimal color theme that's easy on the eyes",
-  "repository": "https://github.com/nobitagit/rebase-16",
-  "version": "0.0.2",
-  "publisher": "aurelio",
-  "engines": {
-    "vscode": "^1.13.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Re-Base16 Dark (Babel)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Re-Base16 Eighties Dark (Babel)-color-theme.json"
-      }
-    ]
-  }
+    "name": "re-base16-dark",
+    "displayName": "Re-Base16 Dark",
+    "description": "Dark, minimal color theme that's easy on the eyes",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nobitagit/rebase-16"
+    },
+    "version": "0.0.3",
+    "publisher": "aurelio",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "dark-theme"
+    ],
+    "icon": "./icon.png",
+    "contributes": {
+        "themes": [{
+            "label": "Re-Base16 Dark (Babel)",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Re-Base16 Eighties Dark (Babel)-color-theme.json"
+        }]
+    },
+    "homepage": "https://marketplace.visualstudio.com/items?itemName=aurelio.re-base16-dark#overview"
 }
